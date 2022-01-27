@@ -6,16 +6,19 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 span{
     color:rgba(89, 0, 255, 0.301);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 
 }
 .half-width img{
-    width:100%;
+    width:90%;
 }
 .half-width{
     width: 50%;
@@ -27,6 +30,29 @@ section{
     padding: 10px 30px;
     border-radius: 10px;
     color:whitesmoke;
+}
+.experience-item{
+    width:40%;
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#web-dev-exp{
+    border-left: 5px solid;
+    border-image: linear-gradient(cyan,blue,rgb(112, 28, 129));
+    border-image-slice: 1;
+}
+#web-dev-exp2{
+    border-left: 5px solid;
+    border-image:linear-gradient(purple,tomato,rgb(255, 136, 0));
+    border-image-slice:1;
+
+}
+.pro-dev{
+    color:tomato;
+}
+.baby-dev{
+    color: salmon;
 }
 
 
