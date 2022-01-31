@@ -10,7 +10,7 @@ h2{
     font-size: 40px;
 }
 span{
-    color:rgba(89, 0, 255, 0.301);
+    color:rebeccapurple;
 }
 .flexible-container{
     display: flex;
@@ -26,39 +26,98 @@ span{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(salmon,tomato);
+    box-shadow:10px 10px 30px gray;
     padding: 10px 30px;
     border-radius: 10px;
-    color:whitesmoke;
+    color:rgb(172, 17, 219);
+    
+}
+a:hover{
+    background-color: chartreuse;
 }
 .experience-item{
     width:40%;
     box-shadow: 10px 10px 30px gray;
     margin-right: 5%;
     margin-left: 5%;
+    text-align: center;
 }
 #web-dev-exp{
     border-left: 5px solid;
-    border-image: linear-gradient(cyan,blue,rgb(112, 28, 129));
+    border-image: linear-gradient(rgb(255, 0, 255),rgb(0, 204, 255),rgb(112, 28, 129));
     border-image-slice: 1;
 }
 #web-dev-exp2{
     border-left: 5px solid;
-    border-image:linear-gradient(purple,tomato,rgb(255, 136, 0));
+    border-image:linear-gradient(rgba(209, 125, 14, 0.836),rgb(71, 255, 240),rgb(102, 255, 0));
     border-image-slice:1;
 
 }
 .pro-dev{
-    color:tomato;
+    color:rgb(120, 71, 255);
 }
 .baby-dev{
-    color: salmon;
+    color: rgb(234, 114, 250);
 }
 footer p{
     text-align: center;
 }
+.link-button2{
+    text-decoration: none;
+    color: skyblue;
+    box-shadow: 10px 10px 30px gray;
+    
+    padding: 10px 30px;
+    border-radius: 10px;
 
-
+}
+.linked{
+    color: rgb(9, 120, 163);
+    font-size: 20px;
+    font-weight: 20px;
+}
+.in{
+    background-color: rgb(20, 112, 148);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 5px;
+    
+    
+}
+.orange{
+    color: tomato;
+}
+.footer{
+    box-shadow: 10px 10px 40px gray;
+    height: 200px;
+    padding-top: 35px;
+    border-radius: 5px;
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato,cyan,purple);
+    border-image-slice: 1;
+}
+.footer-link{
+    text-decoration: none;
+    color: rgb(255, 71, 148);
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+    
+}
+.exp-box-shadow{
+    box-shadow: 10px 10px 30px gray;
+    text-align: center;
+    color: purple;
+    border-left: 5px solid ;
+    border-image: linear-gradient(tomato,purple);
+    border-image-slice: 1;
+    border-right: 5px solid;
+    border-image: linear-gradient(tomato,purple);
+    border-image-slice: 1;
+}
+.footer-color{
+    color: rgb(172, 10, 172);
+}
 
 
 
